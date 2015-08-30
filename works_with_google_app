@@ -1,14 +1,11 @@
-#version 1
 #prints text in webpage on local computer
 import webapp2
-
 form = '''
-<form action="/testform">
+<form action="http://www.google.com">
     <input name = "q" size="50">
     <input type='submit'>
 </form>
 '''
-
 class MainPage(webapp2.RequestHandler):
     def get(self):
         #self.response.headers['Content-Type'] = 'text/plain'
