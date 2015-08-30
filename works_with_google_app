@@ -1,7 +1,7 @@
 #prints text in webpage on local computer
 import webapp2
 form = '''
-<form action="http://www.google.com">
+<form action="http://www.google.com/search">
     <input name = "q" size="50">
     <input type='submit'>
 </form>
